@@ -47,7 +47,7 @@ importers:
       standard-version: ^9.5.0
       tinyws: ^0.1.0
       typescript: ^4.9.5
-      unimport: ^2.2.4
+      unimport: ^3.0.3
       vanilla-jsoneditor: ^0.14.4
       vis-data: ^7.1.4
       vis-network: ^9.1.2
@@ -69,7 +69,7 @@ importers:
       pathe: 1.1.0
       pkg-types: 1.0.1
       rc9: 2.0.1
-      unimport: 2.2.4
+      unimport: 3.0.3
       vite-plugin-inspect: 0.7.15
       vite-plugin-vue-inspector: 3.3.2
     devDependencies:
@@ -1306,9 +1306,9 @@ packages:
       jiti: 1.17.0
       knitwork: 1.0.0
       lodash.template: 4.5.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       scule: 1.0.0
       semver: 7.3.8
       unctx: 2.1.1
@@ -1396,11 +1396,11 @@ packages:
       hookable: 5.4.2
       jiti: 1.17.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.2
-      ufo: 1.0.1
+      ufo: 1.1.1
       unimport: 2.2.4
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -1418,11 +1418,11 @@ packages:
       hookable: 5.4.2
       jiti: 1.17.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.2
-      ufo: 1.0.1
+      ufo: 1.1.1
       unimport: 2.2.4
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -1439,11 +1439,11 @@ packages:
       hookable: 5.4.2
       jiti: 1.17.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.2
-      ufo: 1.0.1
+      ufo: 1.1.1
       unimport: 2.2.4_rollup@3.15.0
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -1546,18 +1546,18 @@ packages:
       h3: 1.4.0
       knitwork: 1.0.0
       magic-string: 0.27.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       ohash: 1.0.0
       pathe: 1.1.0
       perfect-debounce: 0.1.3
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       postcss: 8.4.21
       postcss-import: 15.1.0_postcss@8.4.21
       postcss-url: 10.1.3_postcss@8.4.21
       rollup: 3.15.0
       rollup-plugin-visualizer: 5.9.0_rollup@3.15.0
-      ufo: 1.0.1
-      unplugin: 1.0.1
+      ufo: 1.1.1
+      unplugin: 1.3.1
       vite: 4.1.1_@types+node@18.13.0
       vite-node: 0.28.4_@types+node@18.13.0
       vite-plugin-checker: 0.5.5_5evkmnvh6rjvqpkgp6pxyusdwe
@@ -2493,7 +2493,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.27.0
-      unplugin: 1.0.1
+      unplugin: 1.3.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - rollup
@@ -2916,12 +2916,12 @@ packages:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
     dev: true
 
-  /acorn-jsx/5.3.2_acorn@8.8.1:
+  /acorn-jsx/5.3.2_acorn@8.8.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
     dev: true
 
   /acorn-walk/8.2.0:
@@ -3315,9 +3315,9 @@ packages:
       dotenv: 16.0.3
       giget: 1.0.0
       jiti: 1.17.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       rc9: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5097,8 +5097,8 @@ packages:
     resolution: {integrity: sha512-XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.8.1
-      acorn-jsx: 5.3.2_acorn@8.8.1
+      acorn: 8.8.2
+      acorn-jsx: 5.3.2_acorn@8.8.2
       eslint-visitor-keys: 3.3.0
     dev: true
 
@@ -5190,9 +5190,9 @@ packages:
     resolution: {integrity: sha512-MAU9ci3XdpqOX1aoIoyL2DMzW97P8LYeJxIUkfXhOfsrkH4KLHFaYDwKN0B2l6tqedVJWiTIJtWmxmZfa05vOQ==}
     dependencies:
       enhanced-resolve: 5.12.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
-      ufo: 1.0.1
+      ufo: 1.1.1
     dev: true
 
   /fast-deep-equal/3.1.3:
@@ -6507,7 +6507,7 @@ packages:
       http-shutdown: 1.2.2
       ip-regex: 5.0.0
       node-forge: 1.3.1
-      ufo: 1.0.1
+      ufo: 1.1.1
     dev: true
 
   /load-json-file/4.0.0:
@@ -6683,6 +6683,13 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.14
+
+  /magic-string/0.30.0:
+    resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: false
 
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
@@ -7026,8 +7033,16 @@ packages:
     dependencies:
       acorn: 8.8.1
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       ufo: 1.0.1
+
+  /mlly/1.2.0:
+    resolution: {integrity: sha512-+c7A3CV0KGdKcylsI6khWyts/CYrGTrRVo4R/I7u/cUsy0Conxa6LUhiEzVKIw14lc2L5aiO4+SeVe4TeGRKww==}
+    dependencies:
+      acorn: 8.8.2
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      ufo: 1.1.1
 
   /modify-values/1.0.1:
     resolution: {integrity: sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==}
@@ -7131,14 +7146,14 @@ packages:
       knitwork: 1.0.0
       listhen: 1.0.2
       mime: 3.0.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       mri: 1.2.0
       node-fetch-native: 1.0.1
       ofetch: 1.0.0
       ohash: 1.0.0
       pathe: 1.1.0
       perfect-debounce: 0.1.3
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       pretty-bytes: 6.1.0
       radix3: 1.0.0
       rollup: 3.15.0
@@ -7149,7 +7164,7 @@ packages:
       serve-static: 1.15.0
       source-map-support: 0.5.21
       std-env: 3.3.2
-      ufo: 1.0.1
+      ufo: 1.1.1
       unenv: 1.1.1
       unimport: 2.2.4_rollup@3.15.0
       unstorage: 1.1.4
@@ -7536,7 +7551,7 @@ packages:
     dependencies:
       destr: 1.2.2
       node-fetch-native: 1.0.1
-      ufo: 1.0.1
+      ufo: 1.1.1
       undici: 5.15.0
     dev: true
 
@@ -7870,6 +7885,13 @@ packages:
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 1.1.0
+      pathe: 1.1.0
+
+  /pkg-types/1.0.2:
+    resolution: {integrity: sha512-hM58GKXOcj8WTqUXnsQyJYXdeAPbythQgEF3nTcEo+nkD49chjQ9IKm/QJy9xf6JakXptz86h7ecP2024rrLaQ==}
+    dependencies:
+      jsonc-parser: 3.2.0
+      mlly: 1.2.0
       pathe: 1.1.0
 
   /pluralize/8.0.0:
@@ -9011,16 +9033,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /strip-literal/1.0.0:
-    resolution: {integrity: sha512-5o4LsH1lzBzO9UFH63AJ2ad2/S2AVx6NtjOcaz+VTT2h1RiRvbipW72z8M/lxEhcPHDBQwpDrnTF7sXy/7OwCQ==}
-    dependencies:
-      acorn: 8.8.2
-
   /strip-literal/1.0.1:
     resolution: {integrity: sha512-QZTsipNpa2Ppr6v1AmJHESqJ3Uz247MUS0OjrnnZjFAvEoWqxuyFuXn2xLgMtRnijJShAa1HL0gtJyUs7u7n3Q==}
     dependencies:
       acorn: 8.8.2
-    dev: true
 
   /stylehacks/5.1.1_postcss@8.4.21:
     resolution: {integrity: sha512-sBpcd5Hx7G6seo7b1LkpttvTz7ikD0LlH5RmdcBNb6fFR0Fl7LQwHDFr300q4cwUqi+IYrFGmsIHieMBfnN/Bw==}
@@ -9335,6 +9351,9 @@ packages:
   /ufo/1.0.1:
     resolution: {integrity: sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==}
 
+  /ufo/1.1.1:
+    resolution: {integrity: sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==}
+
   /uglify-js/3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
     engines: {node: '>=0.8.0'}
@@ -9372,10 +9391,10 @@ packages:
       magic-string: 0.27.0
       mkdirp: 1.0.4
       mkdist: 1.1.0_typescript@4.9.5
-      mlly: 1.1.0
+      mlly: 1.2.0
       mri: 1.2.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       pretty-bytes: 6.0.0
       rollup: 3.10.1
       rollup-plugin-dts: 5.1.1_3md6k4iljipbt7fzll35epzd3m
@@ -9401,10 +9420,10 @@ packages:
   /unctx/2.1.1:
     resolution: {integrity: sha512-RffJlpvLOtolWsn0fxXsuSDfwiWcR6cyuykw2e0+zAggvGW1SesXt9WxIWlWpJhwVCZD/WlxxLqKLS50Q0CkWA==}
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
       estree-walker: 3.0.3
       magic-string: 0.26.7
-      unplugin: 1.0.1
+      unplugin: 1.3.1
 
   /undici/5.15.0:
     resolution: {integrity: sha512-wCAZJDyjw9Myv+Ay62LAoB+hZLPW9SmKbQkbHIhMw/acKSlpn7WohdMUc/Vd4j1iSMBO0hWwU8mjB7a5p5bl8g==}
@@ -9447,12 +9466,12 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.3
       magic-string: 0.27.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       scule: 1.0.0
-      strip-literal: 1.0.0
-      unplugin: 1.0.1
+      strip-literal: 1.0.1
+      unplugin: 1.3.1
     transitivePeerDependencies:
       - rollup
 
@@ -9464,15 +9483,33 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.3
       magic-string: 0.27.0
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
-      pkg-types: 1.0.1
+      pkg-types: 1.0.2
       scule: 1.0.0
-      strip-literal: 1.0.0
-      unplugin: 1.0.1
+      strip-literal: 1.0.1
+      unplugin: 1.3.1
     transitivePeerDependencies:
       - rollup
     dev: true
+
+  /unimport/3.0.3:
+    resolution: {integrity: sha512-RzQqQiqepF5P13SwBGCe4pLlRnAQlbFuDAaQlSkXiNJDpN2iymtGMSfa75AcVSejgV05Q2aQYt6UhCiy5GuZ2A==}
+    dependencies:
+      '@rollup/pluginutils': 5.0.2
+      escape-string-regexp: 5.0.0
+      fast-glob: 3.2.12
+      local-pkg: 0.4.3
+      magic-string: 0.30.0
+      mlly: 1.2.0
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      scule: 1.0.0
+      strip-literal: 1.0.1
+      unplugin: 1.3.1
+    transitivePeerDependencies:
+      - rollup
+    dev: false
 
   /unique-filename/2.0.1:
     resolution: {integrity: sha512-ODWHtkkdx3IAR+veKxFV+VBkUMcN+FaqzUUd7IZzt+0zhDZFPFxhlqwPF3YQvMHx1TD0tdgYl+kuPnJ8E6ql7A==}
@@ -9584,6 +9621,15 @@ packages:
       chokidar: 3.5.3
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
+    dev: true
+
+  /unplugin/1.3.1:
+    resolution: {integrity: sha512-h4uUTIvFBQRxUKS2Wjys6ivoeofGhxzTe2sRWlooyjHXVttcVfV/JiavNd3d4+jty0SVV0dxGw9AkY9MwiaCEw==}
+    dependencies:
+      acorn: 8.8.2
+      chokidar: 3.5.3
+      webpack-sources: 3.2.3
+      webpack-virtual-modules: 0.5.0
 
   /unstorage/1.1.4:
     resolution: {integrity: sha512-nrnCoWN8ewaZrwz5yf7QGkMn0FDoVer6yGIR56wvocNzAmZi1vXOnCaBxueB3Uu/SqNSH5N/ww41t6jNT8XccA==}
@@ -9599,7 +9645,7 @@ packages:
       mri: 1.2.0
       node-fetch-native: 1.0.1
       ofetch: 1.0.0
-      ufo: 1.0.1
+      ufo: 1.1.1
       ws: 8.12.0
     optionalDependencies:
       '@planetscale/database': 1.5.0
@@ -9698,7 +9744,7 @@ packages:
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
       source-map: 0.6.1
@@ -9721,7 +9767,7 @@ packages:
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
-      mlly: 1.1.0
+      mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
       source-map: 0.6.1
@@ -9956,7 +10002,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       std-env: 3.3.1
-      strip-literal: 1.0.0
+      strip-literal: 1.0.1
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.0.2
@@ -10023,7 +10069,7 @@ packages:
   /vue-bundle-renderer/1.0.1:
     resolution: {integrity: sha512-w1zRgff5lVJ5YAIkVSKuFjDyCgKdg/sPbcgZbosnMCoHblg0uThCKA2n/XWUGnw0Rh2+03UY/VtkwaYwMUSRyQ==}
     dependencies:
-      ufo: 1.0.1
+      ufo: 1.1.1
     dev: true
 
   /vue-demi/0.13.11:
